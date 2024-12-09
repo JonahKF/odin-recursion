@@ -10,8 +10,10 @@ const fib = (n) => {
 };
 
 const recFib = (n) => {
-  if (n <= 1) return n;
-  return recFib(n - 1) + recFib(n - 2);
+  if (n <= 2) return [0, 1].slice(0, n);
+  const e = recFib(n - 1);
+  e.push(e[e.length - 1] + e[e.length - 2]);
+  return e;
 };
 
 console.log(`Iterative fib(8): ${fib(8)}`);
