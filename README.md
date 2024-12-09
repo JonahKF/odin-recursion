@@ -1,3 +1,4 @@
-# template
+# recursion
 
-Template repo for The Odin Project lessons. Created during the "Revisiting Webpack" lesson.
+Fibbonaci and Merge Sort algorithms, created for The Odin Project.
+Extraneous webpack code is due to template repo. Will clean up before final submission.
